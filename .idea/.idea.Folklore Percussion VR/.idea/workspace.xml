@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a31b02b-9959-4972-b70c-7b592799b944" name="Default Changelist" comment="" />
+    <list default="true" id="8a31b02b-9959-4972-b70c-7b592799b944" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Folklore Percussion VR/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test_Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test_Scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RingStructureRotator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RingStructureRotator.cs" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,22 +17,22 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="9" />
-          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.9" value="5" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="2917" />
+          <entry key="cs" value="3354" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="2917" />
+          <entry key="C#" value="3354" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -49,26 +53,17 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/MusicPlayback.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="31" selection-start-column="31" selection-end-column="31" />
-              <folding>
-                <marker date="1549999740872" expanded="true" signature="42:1891" ph="{...}" />
-                <marker date="1549999740872" expanded="true" signature="208:657" ph="{...}" />
-                <marker date="1549999740872" expanded="true" signature="723:788" ph="{...}" />
-                <marker date="1549999740872" expanded="true" signature="821:1463" ph="{...}" />
-                <marker date="1549999740872" expanded="true" signature="1006:1457" ph="{...}" />
-                <marker date="1549999740872" expanded="true" signature="1097:1447" ph="{...}" />
-                <marker date="1549999740872" expanded="true" signature="1501:1889" ph="{...}" />
-              </folding>
+              <caret column="25" selection-start-column="25" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Oculus/AudioManager/Scenes/Scripts/TestScript.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <folding>
-                <marker date="1549306136000" expanded="true" signature="6:44" ph="..." />
+                <marker date="1549306136000" expanded="false" signature="6:44" ph="..." />
                 <marker date="1549306136000" expanded="true" signature="59:699" ph="{...}" />
                 <marker date="1549306136000" expanded="true" signature="103:696" ph="{...}" />
                 <marker date="1549306136000" expanded="true" signature="321:327" ph="{...}" />
@@ -80,20 +75,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/RingStructureRotator.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            <state relative-caret-position="320">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
-                <marker date="1549999739833" expanded="true" signature="170:182" ph="{...}" />
-                <marker date="1549999739833" expanded="true" signature="248:260" ph="{...}" />
+                <marker date="1550069639463" expanded="false" signature="6:78" ph="..." />
+                <marker date="1550069639463" expanded="true" signature="129:580" ph="{...}" />
+                <marker date="1550069639463" expanded="true" signature="344:403" ph="{...}" />
+                <marker date="1550069639463" expanded="true" signature="422:578" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MusicPlayback.cs" root0="FORCE_HIGHLIGHTING" />
@@ -103,9 +103,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/RingStructureRotator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MusicPlayback.cs" />
         <option value="$PROJECT_DIR$/Assets/Oculus/VR/ThirdParty/SimpleJSON.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RingStructureRotator.cs" />
       </list>
     </option>
   </component>
@@ -116,10 +116,11 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1911" />
-    <option name="width" value="1938" />
-    <option name="height" value="2109" />
+    <option name="x" value="2446" />
+    <option name="width" value="1403" />
+    <option name="height" value="2111" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="UnityExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -128,7 +129,6 @@
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -167,6 +167,7 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -222,11 +223,12 @@
       <workItem from="1550012810680" duration="1489000" />
       <workItem from="1550015620761" duration="446000" />
       <workItem from="1550019352584" duration="865000" />
+      <workItem from="1550066913076" duration="1645000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21037000" />
+    <option name="totallyTimeSpent" value="22682000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -238,9 +240,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1274" y="0" width="1292" height="1406" extended-state="0" />
+    <frame x="1631" y="0" width="935" height="1407" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1875" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26857144" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -257,7 +260,7 @@
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unit Tests" order="12" />
       <window_info anchor="bottom" id="Terminal" order="13" />
-      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.5024351" side_tool="true" visible="true" weight="0.3299293" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.5024351" side_tool="true" visible="true" weight="0.32967034" />
       <window_info active="true" anchor="bottom" id="Build" order="15" sideWeight="0.49756494" visible="true" weight="0.3299293" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -290,30 +293,10 @@
     <entry file="file://$PROJECT_DIR$/Assets/Oculus/Avatar/Scripts/OvrAvatar.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Oculus/Spatializer/Scripts/ONSPVersion.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Oculus/VR/ThirdParty/SimpleJSON.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/RingStructureRotator.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding>
-            <marker date="1549999739833" expanded="true" signature="170:182" ph="{...}" />
-            <marker date="1549999739833" expanded="true" signature="248:260" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/MusicPlayback.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="31" selection-start-column="31" selection-end-column="31" />
-          <folding>
-            <marker date="1549999740872" expanded="true" signature="42:1891" ph="{...}" />
-            <marker date="1549999740872" expanded="true" signature="208:657" ph="{...}" />
-            <marker date="1549999740872" expanded="true" signature="723:788" ph="{...}" />
-            <marker date="1549999740872" expanded="true" signature="821:1463" ph="{...}" />
-            <marker date="1549999740872" expanded="true" signature="1006:1457" ph="{...}" />
-            <marker date="1549999740872" expanded="true" signature="1097:1447" ph="{...}" />
-            <marker date="1549999740872" expanded="true" signature="1501:1889" ph="{...}" />
-          </folding>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -321,13 +304,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
-            <marker date="1549306136000" expanded="true" signature="6:44" ph="..." />
+            <marker date="1549306136000" expanded="false" signature="6:44" ph="..." />
             <marker date="1549306136000" expanded="true" signature="59:699" ph="{...}" />
             <marker date="1549306136000" expanded="true" signature="103:696" ph="{...}" />
             <marker date="1549306136000" expanded="true" signature="321:327" ph="{...}" />
             <marker date="1549306136000" expanded="true" signature="383:694" ph="{...}" />
             <marker date="1549306136000" expanded="true" signature="482:545" ph="{...}" />
             <marker date="1549306136000" expanded="true" signature="624:691" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/RingStructureRotator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <marker date="1550069639463" expanded="false" signature="6:78" ph="..." />
+            <marker date="1550069639463" expanded="true" signature="129:580" ph="{...}" />
+            <marker date="1550069639463" expanded="true" signature="344:403" ph="{...}" />
+            <marker date="1550069639463" expanded="true" signature="422:578" ph="{...}" />
           </folding>
         </state>
       </provider>
