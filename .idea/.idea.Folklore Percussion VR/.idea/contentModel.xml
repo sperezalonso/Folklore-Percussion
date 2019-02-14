@@ -634,6 +634,7 @@
         </e>
       </e>
       <e p="Assets\Scripts" t="Include">
+        <e p="MarimbaController.cs" t="Include" />
         <e p="MusicPlayback.cs" t="Include" />
         <e p="RingStructureRotator.cs" t="Include" />
       </e>

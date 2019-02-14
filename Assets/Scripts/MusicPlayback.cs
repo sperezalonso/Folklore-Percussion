@@ -17,7 +17,7 @@ public class MusicPlayback : MonoBehaviour {
         floorLight.intensity = 0f;
         foreach (GameObject s in spotlights) s.GetComponent<Light>().intensity = 0f;
 
-        for (var i = 0; i < speakers.Length; i++) Debug.Log(i + " " + speakers[i].name);
+        //for (var i = 0; i < speakers.Length; i++) Debug.Log(i + " " + speakers[i].name);
     }
 	
 	// Update is called once per frame
