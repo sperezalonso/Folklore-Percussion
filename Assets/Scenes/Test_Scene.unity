@@ -1015,10 +1015,10 @@ Transform:
   - {fileID: 1397465034}
   - {fileID: 1546069890}
   - {fileID: 1552645638}
-  - {fileID: 1755726359}
-  - {fileID: 580720388}
   - {fileID: 1839657133}
   - {fileID: 1884522979}
+  - {fileID: 1755726359}
+  - {fileID: 580720388}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1703,7 +1703,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1.0000005, z: 1.0000005}
   m_Children: []
   m_Father: {fileID: 304588544}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 40, y: 0, z: 0}
 --- !u!108 &580720389
 Light:
@@ -1714,9 +1714,9 @@ Light:
   m_Enabled: 1
   serializedVersion: 8
   m_Type: 0
-  m_Color: {r: 1, g: 0.97160244, b: 0.58823526, a: 1}
+  m_Color: {r: 0.58823526, g: 0.9318458, b: 1, a: 1}
   m_Intensity: 2
-  m_Range: 10
+  m_Range: 15
   m_SpotAngle: 70
   m_CookieSize: 10
   m_Shadows:
@@ -2052,7 +2052,7 @@ Prefab:
         type: 2}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 292fd344dc3cff6448a91ad95fa3f15e, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 82223613770440456, guid: 49653601f4d932049848d340739a9068,
         type: 2}
       propertyPath: Spatialize
@@ -2061,6 +2061,16 @@ Prefab:
     - target: {fileID: 4800705280451598, guid: 49653601f4d932049848d340739a9068, type: 2}
       propertyPath: m_LocalScale.y
       value: 0.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 82223613770440456, guid: 49653601f4d932049848d340739a9068,
+        type: 2}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 82223613770440456, guid: 49653601f4d932049848d340739a9068,
+        type: 2}
+      propertyPath: m_PlayOnAwake
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 49653601f4d932049848d340739a9068, type: 2}
@@ -3052,6 +3062,11 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: 0.85000014
       objectReference: {fileID: 0}
+    - target: {fileID: 82223613770440456, guid: 49653601f4d932049848d340739a9068,
+        type: 2}
+      propertyPath: m_PlayOnAwake
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 49653601f4d932049848d340739a9068, type: 2}
   m_IsPrefabParent: 0
@@ -3203,7 +3218,7 @@ Prefab:
         type: 2}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 5022899ac2655eb4283dce619bbbd2f3, type: 3}
+      objectReference: {fileID: 8300000, guid: e4b171714fcabc548bc5797d3f82d26d, type: 3}
     - target: {fileID: 82223613770440456, guid: 49653601f4d932049848d340739a9068,
         type: 2}
       propertyPath: Spatialize
@@ -3212,6 +3227,16 @@ Prefab:
     - target: {fileID: 4800705280451598, guid: 49653601f4d932049848d340739a9068, type: 2}
       propertyPath: m_LocalScale.y
       value: 0.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 82223613770440456, guid: 49653601f4d932049848d340739a9068,
+        type: 2}
+      propertyPath: m_PlayOnAwake
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 82223613770440456, guid: 49653601f4d932049848d340739a9068,
+        type: 2}
+      propertyPath: Loop
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 49653601f4d932049848d340739a9068, type: 2}
@@ -3283,6 +3308,16 @@ Prefab:
     - target: {fileID: 4800705280451598, guid: 49653601f4d932049848d340739a9068, type: 2}
       propertyPath: m_LocalScale.y
       value: 0.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 82223613770440456, guid: 49653601f4d932049848d340739a9068,
+        type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 3f43db6677869434ba761ccf04fafd29, type: 3}
+    - target: {fileID: 82223613770440456, guid: 49653601f4d932049848d340739a9068,
+        type: 2}
+      propertyPath: m_PlayOnAwake
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 49653601f4d932049848d340739a9068, type: 2}
@@ -3682,7 +3717,7 @@ Prefab:
         type: 2}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 292fd344dc3cff6448a91ad95fa3f15e, type: 3}
+      objectReference: {fileID: 8300000, guid: ec4130df5c128344492477d78fc84c63, type: 3}
     - target: {fileID: 82223613770440456, guid: 49653601f4d932049848d340739a9068,
         type: 2}
       propertyPath: BypassListenerEffects
@@ -3696,6 +3731,11 @@ Prefab:
     - target: {fileID: 4800705280451598, guid: 49653601f4d932049848d340739a9068, type: 2}
       propertyPath: m_LocalScale.y
       value: 0.84999996
+      objectReference: {fileID: 0}
+    - target: {fileID: 82223613770440456, guid: 49653601f4d932049848d340739a9068,
+        type: 2}
+      propertyPath: m_PlayOnAwake
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 49653601f4d932049848d340739a9068, type: 2}
@@ -4252,7 +4292,7 @@ Light:
   m_Type: 0
   m_Color: {r: 1, g: 0.97160244, b: 0.58823526, a: 1}
   m_Intensity: 2
-  m_Range: 10
+  m_Range: 15
   m_SpotAngle: 70
   m_CookieSize: 10
   m_Shadows:
@@ -4417,7 +4457,7 @@ Prefab:
         type: 2}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 3bbd488e1c635564596f7a366d2537d5, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 82223613770440456, guid: 49653601f4d932049848d340739a9068,
         type: 2}
       propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].time
@@ -4436,12 +4476,12 @@ Prefab:
     - target: {fileID: 82223613770440456, guid: 49653601f4d932049848d340739a9068,
         type: 2}
       propertyPath: m_PlayOnAwake
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 82223613770440456, guid: 49653601f4d932049848d340739a9068,
         type: 2}
       propertyPath: Loop
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4800705280451598, guid: 49653601f4d932049848d340739a9068, type: 2}
       propertyPath: m_LocalScale.y
@@ -4651,7 +4691,7 @@ Light:
   m_Type: 0
   m_Color: {r: 1, g: 0.97160244, b: 0.58823526, a: 1}
   m_Intensity: 2
-  m_Range: 10
+  m_Range: 15
   m_SpotAngle: 70
   m_CookieSize: 10
   m_Shadows:
@@ -4729,7 +4769,7 @@ Light:
   m_Type: 0
   m_Color: {r: 1, g: 0.97160244, b: 0.58823526, a: 1}
   m_Intensity: 2
-  m_Range: 10
+  m_Range: 15
   m_SpotAngle: 70
   m_CookieSize: 10
   m_Shadows:
@@ -4777,17 +4817,17 @@ AudioReverbZone:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1584295507}
   m_Enabled: 1
-  m_MinDistance: 8.42
-  m_MaxDistance: 11.38
-  m_ReverbPreset: 8
+  m_MinDistance: 8.92
+  m_MaxDistance: 10
+  m_ReverbPreset: 3
   m_Room: -1000
-  m_RoomHF: -500
-  m_DecayTime: 3.92
-  m_DecayHFRatio: 0.7
-  m_Reflections: -1230
-  m_ReflectionsDelay: 0.02
-  m_Reverb: -2
-  m_ReverbDelay: 0.029
+  m_RoomHF: -454
+  m_DecayTime: 0.4
+  m_DecayHFRatio: 0.83
+  m_Reflections: -1646
+  m_ReflectionsDelay: 0.002
+  m_Reverb: 53
+  m_ReverbDelay: 0.003
   m_HFReference: 5000
   m_Diffusion: 100
   m_Density: 100
@@ -5268,7 +5308,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1.0000005, z: 1.0000005}
   m_Children: []
   m_Father: {fileID: 304588544}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: -220, y: 0, z: 0}
 --- !u!108 &1755726360
 Light:
@@ -5279,9 +5319,9 @@ Light:
   m_Enabled: 1
   serializedVersion: 8
   m_Type: 0
-  m_Color: {r: 1, g: 0.97160244, b: 0.58823526, a: 1}
+  m_Color: {r: 0.58823526, g: 0.9318458, b: 1, a: 1}
   m_Intensity: 2
-  m_Range: 10
+  m_Range: 15
   m_SpotAngle: 70
   m_CookieSize: 10
   m_Shadows:
@@ -5556,7 +5596,7 @@ Transform:
   m_LocalScale: {x: 1.000001, y: 1.0000002, z: 1.0000006}
   m_Children: []
   m_Father: {fileID: 304588544}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 45.202003, y: 57.989002, z: 9.004001}
 --- !u!108 &1839657134
 Light:
@@ -5569,7 +5609,7 @@ Light:
   m_Type: 0
   m_Color: {r: 1, g: 0.97160244, b: 0.58823526, a: 1}
   m_Intensity: 2
-  m_Range: 10
+  m_Range: 15
   m_SpotAngle: 70
   m_CookieSize: 10
   m_Shadows:
@@ -5621,7 +5661,7 @@ Transform:
   m_LocalScale: {x: 1.000001, y: 1.0000002, z: 1.0000006}
   m_Children: []
   m_Father: {fileID: 304588544}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 48.703003, y: -69.789, z: 13.555}
 --- !u!108 &1884522980
 Light:
@@ -5634,7 +5674,7 @@ Light:
   m_Type: 0
   m_Color: {r: 1, g: 0.97160244, b: 0.58823526, a: 1}
   m_Intensity: 2
-  m_Range: 10
+  m_Range: 15
   m_SpotAngle: 70
   m_CookieSize: 10
   m_Shadows:
@@ -6138,7 +6178,7 @@ Prefab:
         type: 2}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 292fd344dc3cff6448a91ad95fa3f15e, type: 3}
+      objectReference: {fileID: 8300000, guid: c09461dc876c49b4f934c14581fc6a7b, type: 3}
     - target: {fileID: 82223613770440456, guid: 49653601f4d932049848d340739a9068,
         type: 2}
       propertyPath: BypassListenerEffects
@@ -6152,6 +6192,16 @@ Prefab:
     - target: {fileID: 4800705280451598, guid: 49653601f4d932049848d340739a9068, type: 2}
       propertyPath: m_LocalScale.y
       value: 0.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 82223613770440456, guid: 49653601f4d932049848d340739a9068,
+        type: 2}
+      propertyPath: m_PlayOnAwake
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 82223613770440456, guid: 49653601f4d932049848d340739a9068,
+        type: 2}
+      propertyPath: Loop
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 49653601f4d932049848d340739a9068, type: 2}

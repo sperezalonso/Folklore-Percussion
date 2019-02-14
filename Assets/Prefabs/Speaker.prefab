@@ -41,6 +41,7 @@ GameObject:
   - component: {fileID: 65945081249911700}
   - component: {fileID: 23589252381985722}
   - component: {fileID: 82223613770440456}
+  - component: {fileID: 114497159741508074}
   m_Layer: 0
   m_Name: Speaker
   m_TagString: Speaker
@@ -323,19 +324,20 @@ AudioSource:
   m_GameObject: {fileID: 1242001420773816}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 61b61ea44b5f4b445a97f51f8ab133ad,
+    type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
-  Spatialize: 0
+  Spatialize: 1
   SpatializePostEffects: 0
   Priority: 128
-  DopplerLevel: 1
+  DopplerLevel: 0
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 50
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -363,8 +365,8 @@ AudioSource:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 2
-      time: 0
-      value: 0
+      time: 0.0021743774
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -388,13 +390,38 @@ AudioSource:
     m_Curve:
     - serializedVersion: 2
       time: 0
-      value: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.14782143
+      value: 1.0511627
       inSlope: 0
       outSlope: 0
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!114 &114497159741508074
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1242001420773816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e503ea6418d27594caa33b93cac1b06a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enableSpatialization: 1
+  gain: 8
+  useInvSqr: 1
+  near: 1
+  far: 15
+  volumetricRadius: 0
+  reverbSend: 10
+  enableRfl: 1
 --- !u!135 &135111384669031830
 SphereCollider:
   m_ObjectHideFlags: 1
