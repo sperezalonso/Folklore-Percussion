@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a31b02b-9959-4972-b70c-7b592799b944" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test_Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test_Scene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MarimbaController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MarimbaController.cs" afterDir="false" />
-    </list>
+    <list default="true" id="8a31b02b-9959-4972-b70c-7b592799b944" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +12,7 @@
     <session id="-1069595074">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.17" value="1" />
@@ -85,8 +82,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/MarimbaController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="50" column="26" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
+            <state relative-caret-position="185">
+              <caret line="36" column="45" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
               <folding>
                 <marker date="1550189357371" expanded="true" signature="6:143" ph="..." />
                 <marker date="1550189357371" expanded="true" signature="191:2043" ph="{...}" />
@@ -132,9 +129,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-11" />
-    <option name="width" value="1940" />
-    <option name="height" value="2111" />
+    <option name="x" value="-15" />
+    <option name="width" value="1293" />
+    <option name="height" value="1407" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -239,12 +236,12 @@
       <workItem from="1550012810680" duration="1489000" />
       <workItem from="1550015620761" duration="446000" />
       <workItem from="1550019352584" duration="865000" />
-      <workItem from="1550066913076" duration="14006000" />
+      <workItem from="1550066913076" duration="14595000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35043000" />
+    <option name="totallyTimeSpent" value="35632000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -256,10 +253,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1293" height="1407" extended-state="0" />
-    <editor active="true" />
+    <frame x="-10" y="0" width="862" height="938" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19059205" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29301745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -356,8 +352,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/MarimbaController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="50" column="26" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
+        <state relative-caret-position="185">
+          <caret line="36" column="45" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
           <folding>
             <marker date="1550189357371" expanded="true" signature="6:143" ph="..." />
             <marker date="1550189357371" expanded="true" signature="191:2043" ph="{...}" />
