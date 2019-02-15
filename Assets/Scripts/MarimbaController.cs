@@ -13,7 +13,7 @@ public class MarimbaController : MonoBehaviour
     private OVRInput.Controller leftController;
     private OVRInput.Controller rightController;
 
-    [SerializeField] private float vibrationFrequency = 0.1f;
+    [SerializeField] private float vibrationFrequency = 0f;
     [SerializeField] private float vibrationAmplitude = 0.1f;
 
 	// Use this for initialization
@@ -48,14 +48,14 @@ public class MarimbaController : MonoBehaviour
                     if (OVRInput.GetLocalControllerVelocity(rightController).y < 0)
                     {
                         key.Play();
-                        OVRInput.SetControllerVibration(vibrationFrequency, vibrationAmplitude, rightController);
+                        //OVRInput.SetControllerVibration(vibrationFrequency, vibrationAmplitude, rightController);
                     }
                     break;
                 case "LeftControllerAnchor":
                     if (OVRInput.GetLocalControllerVelocity(leftController).y < 0)
                     {
                         key.Play();
-                        OVRInput.SetControllerVibration(vibrationFrequency, vibrationAmplitude, leftController);
+                        //OVRInput.SetControllerVibration(vibrationFrequency, vibrationAmplitude, leftController);
                     }
                     break;
             }
