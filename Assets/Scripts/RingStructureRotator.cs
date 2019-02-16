@@ -12,7 +12,7 @@ public class RingStructureRotator : MonoBehaviour
 	void Start ()
 	{
 	    axis = Vector3.up;
-	    speed = Time.deltaTime;
+	    speed = Time.deltaTime * 2;
 	}
 	
 	void Update () {

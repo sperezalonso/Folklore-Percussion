@@ -136,11 +136,12 @@ public class DebugUIBuilder : MonoBehaviour
   {
     Relayout();
     gameObject.SetActive(true);
-    transform.position = rig.transform.TransformPoint(menuOffset);
+    //transform.position = rig.transform.TransformPoint(menuOffset);
+      transform.position = new Vector3(0, -20f, 0);        // position the default created Canvas away from the scene
     Vector3 newEulerRot = rig.transform.rotation.eulerAngles;
     newEulerRot.x = 0.0f;
     newEulerRot.z = 0.0f;
-    transform.eulerAngles = newEulerRot;
+    //transform.eulerAngles = newEulerRot;
 
     if (reEnable == null || reEnable.Length < toDisable.Count) reEnable = new bool[toDisable.Count];
     reEnable.Initialize();

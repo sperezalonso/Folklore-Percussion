@@ -13,9 +13,6 @@ public class MarimbaController : MonoBehaviour
     private OVRInput.Controller leftController;
     private OVRInput.Controller rightController;
 
-    [SerializeField] private float vibrationFrequency = 0f;
-    [SerializeField] private float vibrationAmplitude = 0.1f;
-
 	// Use this for initialization
 	void Start ()
 	{
@@ -23,11 +20,6 @@ public class MarimbaController : MonoBehaviour
 	    note = GetComponent<AudioClip>();
 	    leftController = OVRInput.Controller.LTouch;
 	    rightController = OVRInput.Controller.RTouch;
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	    //if (Input.GetKeyDown(KeyCode.Alpha1)) speakers[0].GetComponent<AudioSource>().Play();
 	}
 
     private void OnTriggerEnter(Collider other)

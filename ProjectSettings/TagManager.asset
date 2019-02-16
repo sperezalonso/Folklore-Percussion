@@ -9,6 +9,7 @@ TagManager:
   - Spotlight
   - MarimbaKey
   - Mallet
+  - StartNoise
   layers:
   - Default
   - TransparentFX

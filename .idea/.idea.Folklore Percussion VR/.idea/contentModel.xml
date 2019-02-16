@@ -634,9 +634,12 @@
         </e>
       </e>
       <e p="Assets\Scripts" t="Include">
+        <e p="CanvasUI.cs" t="Include" />
+        <e p="GameManager.cs" t="Include" />
         <e p="MarimbaController.cs" t="Include" />
         <e p="MusicPlayback.cs" t="Include" />
         <e p="RingStructureRotator.cs" t="Include" />
+        <e p="VolumeController.cs" t="Include" />
       </e>
       <e p="Folklore Percussion VR.sln" t="IncludeFlat" />
       <e p="Library" t="ExcludeRecursive" />
