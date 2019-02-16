@@ -3107,7 +3107,7 @@ Prefab:
         type: 2}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 712eda59708a4f74f8f930a2dbc7cf66, type: 3}
+      objectReference: {fileID: 8300000, guid: 4fdf8f15c5cfa4a499bd847bdb1a88bb, type: 3}
     - target: {fileID: 114497159741508074, guid: 49653601f4d932049848d340739a9068,
         type: 2}
       propertyPath: near
@@ -3168,6 +3168,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06fa4f80b5bd8964d817bfb56fc276be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  startNoiseClip: {fileID: 8300000, guid: 3f43db6677869434ba761ccf04fafd29, type: 3}
+  rotatingVoiceClip: {fileID: 8300000, guid: cc2bf0b78f1ab0e458b100b938041081, type: 3}
   uiElements:
   - {fileID: 1286650436}
   - {fileID: 343493941}
@@ -8173,6 +8175,11 @@ Prefab:
       propertyPath: useInvSqr
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114497159741508074, guid: 49653601f4d932049848d340739a9068,
+        type: 2}
+      propertyPath: reverbSend
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 49653601f4d932049848d340739a9068, type: 2}
   m_IsPrefabParent: 0
@@ -13095,7 +13102,7 @@ Prefab:
     - target: {fileID: 114497159741508074, guid: 49653601f4d932049848d340739a9068,
         type: 2}
       propertyPath: far
-      value: 100
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 114497159741508074, guid: 49653601f4d932049848d340739a9068,
         type: 2}
@@ -13680,7 +13687,7 @@ Prefab:
         type: 2}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 4fdf8f15c5cfa4a499bd847bdb1a88bb, type: 3}
+      objectReference: {fileID: 8300000, guid: 712eda59708a4f74f8f930a2dbc7cf66, type: 3}
     - target: {fileID: 82223613770440456, guid: 49653601f4d932049848d340739a9068,
         type: 2}
       propertyPath: BypassListenerEffects

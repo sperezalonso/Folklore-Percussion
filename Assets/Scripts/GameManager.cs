@@ -13,7 +13,11 @@ public class GameManager : MonoBehaviour {
     private GameState currentState;
     private GameObject[] speakers;
     private bool songPlaying;
-    private AudioSource startNoise;    // The synth sound looping at the beginning
+    private AudioSource rotatingSpeaker;    // The synth sound looping at the beginning
+    //private AudioClip rotatingSpeakerClip;
+    
+    [SerializeField] private AudioClip startNoiseClip;
+    [SerializeField] AudioClip rotatingVoiceClip;
     private AudioSource songTrack;    // Save one track of the song to check if the song is playing or not
     [SerializeField] private GameObject[] uiElements;
     private bool menuOpen;        // Flag used to toggle open or close menu
@@ -28,7 +32,7 @@ public class GameManager : MonoBehaviour {
 	    songPlaying = false;
 	    menuOpen = true;
 	    speakers = GameObject.FindGameObjectsWithTag("Speaker");
-	    startNoise = GameObject.FindGameObjectWithTag("StartNoise").GetComponent<AudioSource>();
+	    rotatingSpeaker = GameObject.FindGameObjectWithTag("StartNoise").GetComponent<AudioSource>();
 	    
 	    // Save one track of the song to check if the song is already finished playing
 	    // Since all tracks have the same length, this can be any clip
@@ -49,8 +53,7 @@ public class GameManager : MonoBehaviour {
 	        // If the song finished playing, change GameState
 	        else if (songPlaying && !songTrack.isPlaying)
 	        {
-	            currentState = GameState.FreeMode;
-	            startNoise.Play();
+	            EnterFreeMode();
 	        }
 	    }
 	    	    
@@ -76,7 +79,7 @@ public class GameManager : MonoBehaviour {
    
     void PlaySong()
     {
-        startNoise.Stop();
+        UpdateSpeaker("Voice");
         
         // Play all tracks of the song
         foreach (GameObject speaker in speakers)
@@ -85,5 +88,30 @@ public class GameManager : MonoBehaviour {
         }
         songPlaying = true;
     }
-    
+
+    void EnterFreeMode()
+    {
+        currentState = GameState.FreeMode;
+        songPlaying = false;
+        UpdateSpeaker("Noise");
+    }
+
+    // Function used to change the clips of the rotating speaker between start sounds and voice
+    void UpdateSpeaker(string clip)
+    {
+        switch (clip)
+        {
+            case "Voice":
+                rotatingSpeaker.loop = false;
+                rotatingSpeaker.clip = rotatingVoiceClip;
+                break;
+            
+            case "Noise":
+                rotatingSpeaker.loop = true;
+                rotatingSpeaker.clip = startNoiseClip;
+                break;
+        }
+        rotatingSpeaker.Play();
+    }
+
 }
