@@ -9,7 +9,6 @@ public class MarimbaController : MonoBehaviour
 {
 
     private AudioSource key;
-    private AudioClip note;
     private OVRInput.Controller leftController;
     private OVRInput.Controller rightController;
 
@@ -17,7 +16,6 @@ public class MarimbaController : MonoBehaviour
 	void Start ()
 	{
 	    key = GetComponent<AudioSource>();
-	    note = GetComponent<AudioClip>();
 	    leftController = OVRInput.Controller.LTouch;
 	    rightController = OVRInput.Controller.RTouch;
 	}
